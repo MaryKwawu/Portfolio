@@ -14,7 +14,9 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left ordeer-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">
+              Software Developer & DevOps Engineer
+            </span>
             <h1 className="h1 mb-6 ">
               Hello I am <br /> <span className="text-accent">Mary Kwawu </span>
             </h1>
@@ -44,7 +46,7 @@ const Home = () => {
             </div>
           </div>
           {/* photo */}
-          <div className="order-1 xl:order-none mb-8 xl:0">
+          <div className="order-1 xl:order-none mb-8  ">
             <Photo />
           </div>
         </div>
