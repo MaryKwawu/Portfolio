@@ -20,7 +20,7 @@ import { SiTailwindcss, SiNextdotjs, SiKubernetes } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nisi deleniti. Recusandae repellendus alias minus tempore neque nobis earum eaque distinctio reprehenderit quis! At in obcaecati deleniti ipsam temporibus? Quidem!",
+    "Mary is a DevOps Software Engineer having experience in Python, Angular, Kubernetes, and Docker. Majorly she has been working as a DevOps Engineer with specialties in Docker and Kubernetes. She is very passionate about community Building, DevOps, Programming, and Infrastructure. She powerfully believes in the strength of community and spends her free time contributing toward advocating for girls and women in STEM, their reproductive health, and rights through an NGO foundation called GRAY (Gender and Reproductive Advocacy Youth Network) also she a proud member of Black Sisters in STEM.",
   info: [
     {
       fieldName: "Name",
@@ -40,7 +40,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "kwawumary@gmail.com",
+      fieldValue: "marykwawu3@gmail.com",
     },
 
     {
@@ -261,6 +261,8 @@ const Resume = () => {
                             <span className="text-accent">{item.duration}</span>
                             <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left ">
                               {item.Degree}
+                              {item.Training}
+                              {item.Certification}
                             </h3>
                             <div className="flex items-center gap-3">
                               {/* dot */}

@@ -26,7 +26,7 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "kwawumary@gmail.com",
+    description: "marykwawu3@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,

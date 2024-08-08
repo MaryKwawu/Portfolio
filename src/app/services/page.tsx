@@ -10,28 +10,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet minus doloribus at saepe voluptates, maxime velit voluptatum ipsum rerum eius, animi, asperiores aut error qui delectus dolorum! Doloremque, a.",
+      "Looking to boost your online presence with modern web technology? I offer expert web development services using ReactJS, NextJS, NodeJS and TailwindCSS. From building fast, interactive interfaces to creating stylish, responsive designs, I provide solutions that are both powerful and user-friendly. ReactJS and Angular let me craft dynamic, scalable applications, while NextJS ensures top-notch performance and SEO. With TailwindCSS, I design beautiful and adaptable websites that fit your needs. Let’s create something amazing together",
     href: "",
   },
   {
     num: "02",
     title: "Front-end Development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet minus doloribus at saepe voluptates, maxime velit voluptatum ipsum rerum eius, animi, asperiores aut error qui delectus dolorum! Doloremque, a.",
+      "I specialize in crafting stunning, high-performance user interfaces using JavaScript, React, Angular, and TailwindCSS. With JavaScript, I create interactive features that engage users. React and Angular ensure dynamic, scalable applications that adapt to your needs, while TailwindCSS delivers sleek, responsive designs that look great on any device. Let’s work together to transform your vision into a seamless, captivating web experience that stands out and performs flawlessly.",
     href: "",
   },
   {
     num: "03",
     title: "Developmnet Operation Engineer",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet minus doloribus at saepe voluptates, maxime velit voluptatum ipsum rerum eius, animi, asperiores aut error qui delectus dolorum! Doloremque, a.",
+      "I offer top-notch DevOps services to optimize your development and deployment processes using Docker, Kubernetes, and AWS. With Docker, I package your applications for consistent and efficient deployment across environments. Kubernetes orchestrates these containers, ensuring scalability and reliability for your applications. AWS provides the cloud infrastructure to support robust, scalable, and secure solutions. Together, these tools enhance your workflow, improve efficiency, and accelerate your time-to-market. Let’s streamline your operations and take your infrastructure to the next level!",
     href: "",
   },
   {
     num: "04",
     title: "Backed-end",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet minus doloribus at saepe voluptates, maxime velit voluptatum ipsum rerum eius, animi, asperiores aut error qui delectus dolorum! Doloremque, a.",
+      "I specialize in creating powerful backends using Flask, PostgreSQL, MongoDB, Jasmine, and Karma. Flask provides a flexible framework for rapid development, while PostgreSQL and MongoDB offer efficient and scalable data management solutions tailored to your needs. Jasmine and Karma ensure your backend is thoroughly tested for reliability and performance. By integrating these technologies, I deliver a robust, scalable, and well-tested backend that drives your application's success and adapts as your business grows.",
     href: "",
   },
 ];
