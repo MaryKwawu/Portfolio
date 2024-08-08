@@ -219,7 +219,7 @@ const Resume = () => {
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {Experience.items.map((item, index) => {
                       return (
-                        <div>
+                        <div key={index}>
                           <li
                             key={index}
                             className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
@@ -289,7 +289,7 @@ const Resume = () => {
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px] gap-4">
                   {skills.skilllist.map((skill, index) => {
                     return (
-                      <div>
+                      <div key={index}>
                         <li key={index}>
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
@@ -323,7 +323,7 @@ const Resume = () => {
                 <ul className="grid grid-col-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0 ">
                   {about.info.map((item, index) => {
                     return (
-                      <div>
+                      <div key={index}>
                         <li
                           key={index}
                           className="flex items-center justify-center xl:justify-start gap-4"

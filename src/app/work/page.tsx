@@ -92,7 +92,7 @@ const Work = () => {
               <ul className="flex gap-4 ">
                 {project.stack.map((item, index) => {
                   return (
-                    <div>
+                    <div key={index}>
                       <li key={index} className="text:xl text-accent ">
                         {item.name}
                         {/* remove the last comma */}
@@ -144,7 +144,7 @@ const Work = () => {
             >
               {projects.map((project, index) => {
                 return (
-                  <div>
+                  <div key={index}>
                     <SwiperSlide key={index} className="w-full">
                       <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                         {/* overlay */}
