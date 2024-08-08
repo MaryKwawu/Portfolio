@@ -58,7 +58,7 @@ const about = {
 const Experience = {
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nisi deleniti. Recusandae repellendus alias minus tempore neque nobis earum eaque distinctio reprehenderit quis! At in obcaecati deleniti ipsam temporibus? Quidem!",
+    "With three years of experience in web and backend development, I offer a well-rounded skill set to tackle complex projects. I excel in building scalable, high-performance applications using Flask, and I efficiently manage data with PostgreSQL and MongoDB. My approach to robust testing is supported by Jasmine and Karma, ensuring reliable and bug-free solutions. On the frontend, I create engaging and responsive user interfaces with JavaScript, ReactJS, Angular, and TailwindCSS. My DevOps expertise includes Docker and Kubernetes for seamless containerization and orchestration, complemented by AWS and Azure for scalable and secure cloud infrastructure. This diverse expertise enables me to deliver innovative, tailored solutions that drive success and exceed expectations.",
   items: [
     {
       company: "Pigeon Ulta",
@@ -83,7 +83,7 @@ const education = {
   icon: "",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nisi deleniti. Recusandae repellendus alias minus tempore neque nobis earum eaque distinctio reprehenderit quis! At in obcaecati deleniti ipsam temporibus? Quidem!",
+    "With a solid foundation in education from the University of Cape Coast, where I earned a Bachelor of Education in Social Studies, I transitioned into technology through intensive training at a MEST Africa bootcamp. There, I honed my skills in full stack development, mastering technologies such as React, MongoDB, and Node.js. My journey continued with ALX Africa, where I undertook a rigorous year-and-a-half program in programming fundamentals, culminating in an Associate Degree. Currently, I am further advancing my technical expertise on a prestigious scholarship from the Linux Foundation, focusing on achieving the Certified Kubernetes Administrator certification.",
   items: [
     {
       Institution: "Linux Foundation",
@@ -115,7 +115,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nisi deleniti. Recusandae repellendus alias minus tempore neque nobis earum eaque distinctio reprehenderit quis! At in obcaecati deleniti ipsam temporibus? Quidem!",
+    "I am a skilled software developer with a strong foundation in Python, Node.js, and JavaScript. My expertise spans DevOps practices with Kubernetes, Docker, AWS, and Azure, enabling me to efficiently manage and deploy scalable applications. I specialize in developing robust REST APIs using Flask and creating engaging, responsive frontends with Angular. My proficiency extends to working with both PostgreSQL and MongoDB databases, ensuring effective data management and performance. I leverage Git for version control to maintain code integrity and collaborate seamlessly. Additionally, I use Jasmine and Karma for test automation, guaranteeing the reliability and quality of applications. With experience in IDEs like PyCharm, VSCode, and IntelliJ, I apply Object-Oriented Programming (OOP), Test-Driven Development (TDD), and Agile methodologies to drive innovative solutions and deliver high-quality software that meets and exceeds client expectations.",
   skilllist: [
     {
       icon: <FaHtml5 />,
