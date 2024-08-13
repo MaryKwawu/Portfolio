@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedin, FaMedium, FaTwitter } from "react-icons/fa";
 import { icons } from "lucide-react";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedin />, path: "" },
-  { icon: <FaMedium />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/MaryKwawu" },
+  { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/mary-kwawu-b51693148/" },
+  { icon: <FaMedium />, path: "https://medium.com/@Marietechie" },
+  { icon: <FaTwitter />, path: "https://x.com/marietechie" },
 ];
 
 const Social = ({ containerStyles, iconStyles }: any) => {
