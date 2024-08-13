@@ -26,10 +26,10 @@ const projects = [
     title: "project 1",
     description:
       "Built a portfolio for a colleague",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    stack: [{ name: "NestJS" }, { name: "TailwindCss" }, { name: "NodeJS" }],
     image: "/assets/work/project.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/MaryKwawu/Portfolio",
   },
   {
     num: "02",
@@ -40,7 +40,7 @@ const projects = [
     stack: [{ name: "React" }, { name: "Tailwind.css" }, { name: "nodejs" }],
     image: "/assets/work/grace-fabric.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/MaryKwawu/Grace-Fabric-E-commerce-site",
   },
   {
     num: "03",
@@ -51,7 +51,7 @@ const projects = [
     stack: [{ name: "Nextjs" }, { name: "Tailwind.css" }, { name: "nodejs" }],
     image: "/assets/work/todo-app.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/MaryKwawu/My-Todo-App-in-NextJs",
   },
 ];
 
@@ -120,7 +120,7 @@ const Work = () => {
                   </TooltipProvider>
                 </Link>
                 {/* github project button */}
-                <Link href={"project.github"}>
+                <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
