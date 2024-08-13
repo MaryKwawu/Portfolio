@@ -29,7 +29,7 @@ const services = [
   },
   {
     num: "04",
-    title: "Backed-end",
+    title: "Back-end",
     description:
       "I specialize in creating powerful backends using Flask, PostgreSQL, MongoDB, Jasmine, and Karma. Flask provides a flexible framework for rapid development, while PostgreSQL and MongoDB offer efficient and scalable data management solutions tailored to your needs. Jasmine and Karma ensure your backend is thoroughly tested for reliability and performance. By integrating these technologies, I deliver a robust, scalable, and well-tested backend that drives your application's success and adapts as your business grows.",
     href: "",

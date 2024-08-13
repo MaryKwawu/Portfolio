@@ -25,7 +25,7 @@ const projects = [
     category: "frontend",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa sit id nemo dolor libero recusandae laborum.",
+      "Built a portfolio for a colleague",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/project.jpg",
     live: "",
@@ -36,7 +36,7 @@ const projects = [
     category: "fullstack",
     title: "project2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa sit id nemo dolor libero recusandae laborum.",
+      "Built my first fabric website and hosted it on Heroku",
     stack: [{ name: "React" }, { name: "Tailwind.css" }, { name: "nodejs" }],
     image: "/assets/work/grace-fabric.jpg",
     live: "",
@@ -47,7 +47,7 @@ const projects = [
     category: "fullstack",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa sit id nemo dolor libero recusandae laborum.",
+      "Built a todo app to help me achieve my daily goals ",
     stack: [{ name: "Nextjs" }, { name: "Tailwind.css" }, { name: "nodejs" }],
     image: "/assets/work/todo-app.jpg",
     live: "",
