@@ -27,7 +27,7 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa sit id nemo dolor libero recusandae laborum.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project.png",
+    image: "/assets/work/project.jpg",
     live: "",
     github: "",
   },
@@ -49,7 +49,7 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa sit id nemo dolor libero recusandae laborum.",
     stack: [{ name: "Nextjs" }, { name: "Tailwind.css" }, { name: "nodejs" }],
-    image: "/assets/work/todo-app.png",
+    image: "/assets/work/todo-app.jpg",
     live: "",
     github: "",
   },

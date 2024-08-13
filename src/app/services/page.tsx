@@ -54,7 +54,7 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className="flex-1 flex flex-col justify-center gap-6 group"
+                className="flex-1 flex flex-col gap-6 group"
               >
                 {/* top */}
                 <div className="w-full flex justify-between item-center ">
@@ -88,7 +88,7 @@ const Services = () => {
                   {service.title}
                 </h2>
                 {/* description */}
-                <p className="text-white/60">{service.description}</p>
+                <p className="text-white/60 text-left">{service.description}</p>
                 {/* border */}
                 <div className="border-b border-white/20 w-full"></div>
               </div>
