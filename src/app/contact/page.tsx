@@ -58,10 +58,7 @@ const Contact = () => {
               >
                 <h3 className="text-4xl text-accent">Let's work together</h3>
                 <p className="text-white/60">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Possimus rem nostrum dolorum, eos sed similique eum architecto
-                  quibusdam impedit rerum mollitia harum beatae eveniet soluta
-                  aut. Saepe assumenda harum autem?
+                Ready to elevate your tech project? Whether you need expertise in front-end development, back-end solutions, or robust DevOps strategies, I’m here to deliver. Fill in your details below and hit the send button to kick off our collaboration. Together, we can turn your vision into a seamless, high-performing reality. Thank you for considering me for your tech needs!
                 </p>
                 {/* input */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
