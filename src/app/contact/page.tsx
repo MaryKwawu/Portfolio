@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -38,6 +38,17 @@ const info = [
 import { motion } from "framer-motion";
 
 const Contact = () => {
+ 
+   const [firstName, setFirstname] = useState("");
+   const [lasttName, setLastname] = useState("");
+   const [email, setEmail] = useState("");
+   const [phone, setPhone] = useState("");
+   const [service, setService] = useState("");
+   const [message, setMessage] = useState("");
+
+   function sendMessage(){
+    window.location.href = `mailto:${email}`
+   }
   return (
     <div>
       <motion.section
@@ -54,7 +65,7 @@ const Contact = () => {
             <div className="xl:h-[54%] order-2 xl:order-none">
               <form
                 className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl "
-                action=""
+                onSubmit={sendMessage}
               >
                 <h3 className="text-4xl text-accent">Let's work together</h3>
                 <p className="text-white/60">
@@ -62,13 +73,23 @@ const Contact = () => {
                 </p>
                 {/* input */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <Input type="firstname" placeholder="Firstname" />
-                  <Input type="lastname" placeholder="Lastname" />
-                  <Input type="email" placeholder="Email address" />
-                  <Input type="phone" placeholder="Phone number" />
+                  <Input type="firstname" required  placeholder="Firstname" onChange={(e) => {
+                    setFirstname(e.target.value)
+                  } } />
+                  <Input type="lastname" placeholder="Lastname" onChange={(e) => {
+                    setLastname(e.target.value)
+                  } } />
+                  <Input type="email" required placeholder="Email address" onChange={(e) => {
+                    setEmail(e.target.value)
+                  } } />
+                  <Input type="phone" placeholder="Phone number" onChange={(e) => {
+                    setPhone(e.target.value)
+                  } } />
                 </div>
                 {/* select */}
-                <Select>
+                <Select onValueChange={(value) => {
+                  setService(value)
+                }}>
                   <SelectTrigger className="w-full">
                     <SelectValue placeholder="Select a service" />
                   </SelectTrigger>
@@ -85,11 +106,15 @@ const Contact = () => {
                 </Select>
                 {/* textarea */}
                 <Textarea
+                required
                   className="h-[200px]"
                   placeholder="Type your message here"
+                  onChange={(e) => {
+                      setMessage(e.target.value)
+                  }}
                 />
                 {/* btn */}
-                <Button size="md" className="max-w-40">
+                <Button size="md" className="max-w-40" type="submit">
                   Send message
                 </Button>
               </form>
