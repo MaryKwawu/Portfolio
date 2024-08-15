@@ -36,6 +36,7 @@ const info = [
 ];
 
 import { motion } from "framer-motion";
+import { Link } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -89,9 +90,12 @@ const Contact = () => {
                   placeholder="Type your message here"
                 />
                 {/* btn */}
+                <Link>
                 <Button size="md" className="max-w-40">
                   Send message
                 </Button>
+                </Link>
+                
               </form>
             </div>
             {/* info */}
