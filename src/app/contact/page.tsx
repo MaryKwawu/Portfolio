@@ -82,7 +82,7 @@ const Contact = () => {
                   <Input type="email" required placeholder="Email address" onChange={(e) => {
                     setEmail(e.target.value)
                   } } />
-                  <Input type="phone" placeholder="Phone number" onChange={(e) => {
+                  <Input type="tel" required placeholder="Phone number" onChange={(e) => {
                     setPhone(e.target.value)
                   } } />
                 </div>

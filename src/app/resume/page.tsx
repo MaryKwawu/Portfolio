@@ -20,7 +20,7 @@ import { SiTailwindcss, SiNextdotjs, SiKubernetes } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Mary is a DevOps Software Engineer having experience in Python, Angular, Kubernetes, and Docker. Majorly she has been working as a DevOps Engineer with specialties in Docker and Kubernetes. She is very passionate about community Building, DevOps, Programming, and Infrastructure. She powerfully believes in the strength of community and spends her free time contributing toward advocating for girls and women in STEM, their reproductive health, and rights through an NGO foundation called GRAY (Gender and Reproductive Advocacy Youth Network) also she a proud member of Black Sisters in STEM.",
+    "Mary is a DevOps Software Engineer with strong expertise in Python, Angular, Kubernetes, and Docker. She has a deep passion for DevOps and programming, specializing in Docker and Kubernetes. Mary is committed to community building and advocacy, dedicating her free time to supporting girls and women in STEM through GRAY (Gender and Reproductive Advocacy Youth Network) and proudly contributing to Black Sisters in STEM. Her dedication to both technical excellence and community impact makes her a valuable asset to any team",
   info: [
     {
       fieldName: "Name",
@@ -58,7 +58,7 @@ const about = {
 const Experience = {
   title: "My experience",
   description:
-    "With three years of experience in web and backend development, I offer a well-rounded skill set to tackle complex projects. I excel in building scalable, high-performance applications using Flask, and I efficiently manage data with PostgreSQL and MongoDB. My approach to robust testing is supported by Jasmine and Karma, ensuring reliable and bug-free solutions. On the frontend, I create engaging and responsive user interfaces with JavaScript, ReactJS, Angular, and TailwindCSS. My DevOps expertise includes Docker and Kubernetes for seamless containerization and orchestration, complemented by AWS and Azure for scalable and secure cloud infrastructure. This diverse expertise enables me to deliver innovative, tailored solutions that drive success and exceed expectations.",
+    "With three years in web and backend development, I bring a versatile skill set for complex projects. I build scalable applications with Flask, manage data using PostgreSQL and MongoDB, and ensure reliability through Jasmine and Karma testing. On the frontend, I design engaging interfaces with JavaScript, ReactJS, Angular, and TailwindCSS. My DevOps experience includes Docker and Kubernetes for efficient containerization, along with AWS and Azure for secure, scalable cloud solutions. This broad expertise allows me to deliver innovative and tailored solutions that exceed expectations.",
   items: [
     {
       company: "Pigeon Ulta",
@@ -83,7 +83,7 @@ const education = {
   icon: "",
   title: "My education",
   description:
-    "With a solid foundation in education from the University of Cape Coast, where I earned a Bachelor of Education in Social Studies, I transitioned into technology through intensive training at a MEST Africa bootcamp. There, I honed my skills in full stack development, mastering technologies such as React, MongoDB, and Node.js. My journey continued with ALX Africa, where I undertook a rigorous year-and-a-half program in programming fundamentals, culminating in an Associate Degree. Currently, I am further advancing my technical expertise on a prestigious scholarship from the Linux Foundation, focusing on achieving the Certified Kubernetes Administrator certification.",
+    "Starting with a Bachelor of Education in Social Studies from the University of Cape Coast, I pivoted to tech through MEST Africa’s bootcamp, mastering React, MongoDB, and Node.js. My journey continued with a rigorous program at ALX Africa, earning an Associate Degree in programming fundamentals. Now, I’m enhancing my skills with a Linux Foundation scholarship, pursuing the Certified Kubernetes Administrator certification.",
   items: [
     {
       Institution: "Linux Foundation",
@@ -115,7 +115,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "I am a skilled software developer with a strong foundation in Python, Node.js, and JavaScript. My expertise spans DevOps practices with Kubernetes, Docker, AWS, and Azure, enabling me to efficiently manage and deploy scalable applications. I specialize in developing robust REST APIs using Flask and creating engaging, responsive frontends with Angular. My proficiency extends to working with both PostgreSQL and MongoDB databases, ensuring effective data management and performance. I leverage Git for version control to maintain code integrity and collaborate seamlessly. Additionally, I use Jasmine and Karma for test automation, guaranteeing the reliability and quality of applications. With experience in IDEs like PyCharm, VSCode, and IntelliJ, I apply Object-Oriented Programming (OOP), Test-Driven Development (TDD), and Agile methodologies to drive innovative solutions and deliver high-quality software that meets and exceeds client expectations.",
+    "I’m a skilled software developer proficient in Python, Node.js, and JavaScript, with deep expertise in DevOps tools like Kubernetes, Docker, AWS, and Azure. I build robust REST APIs with Flask and craft dynamic frontends using Angular. My experience with PostgreSQL and MongoDB ensures top-notch data management. I maintain code integrity with Git, automate testing with Jasmine and Karma, and utilize IDEs like PyCharm, VSCode, and IntelliJ. Applying OOP, TDD, and Agile methodologies, I deliver high-quality, innovative solutions that exceed expectations.",
   skilllist: [
     {
       icon: <FaHtml5 />,
