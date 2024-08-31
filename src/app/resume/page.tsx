@@ -11,6 +11,7 @@ import {
 	FaNodeJs,
 	FaDocker,
 	FaAngular,
+	FaAws,
 } from "react-icons/fa";
 
 import {
@@ -166,6 +167,10 @@ const skills = {
 			icon: <FaDocker />,
 			name: "docker",
 		},
+		{
+			icon: <FaAws />,
+			name: "Aws",
+		},
 	],
 };
 
@@ -210,7 +215,7 @@ const Resume = () => {
 						<TabsTrigger value="about">About me</TabsTrigger>
 					</TabsList>
 					{/* content */}
-					<div className="min-h-[70] w-full">
+					<div className="min-h-[70px] w-full">
 						{/* expeirence */}
 						<TabsContent value="experience" className="w-full">
 							<div className="flex flex-col  gap-[30px] text-center xl:text-left">
@@ -296,7 +301,7 @@ const Resume = () => {
 									{skills.skilllist.map((skill, index) => {
 										return (
 											<div key={index}>
-												<li key={index}>
+												<li>
 													<TooltipProvider delayDuration={100}>
 														<Tooltip>
 															<TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
