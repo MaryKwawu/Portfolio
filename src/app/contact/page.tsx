@@ -68,13 +68,11 @@ const Contact = () => {
 							>
 								<h3 className="text-4xl text-accent">Let's work together</h3>
 								<p className="text-white/60">
-									Ready to elevate your tech project? Whether you need expertise
-									in front-end development, back-end solutions, or robust DevOps
-									strategies, I’m here to deliver. Fill in your details below
-									and hit the send button to kick off our collaboration.
-									Together, we can turn your vision into a seamless,
-									high-performing reality. Thank you for considering me for your
-									tech needs!
+									Looking to strengthen your system or community impact? 
+									Whether you require rigorous QA auditing or structured social work strategies,
+									 I’m here to collaborate. Fill in your details below to get started. 
+									 Together, we can ensure your operations are seamless, compliant, and highly effective.
+									  Thank you for reaching out!
 								</p>
 								{/* input */}
 								<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
