@@ -30,14 +30,15 @@ const Home = () => {
 					{/* text */}
 					<div className="text-center xl:text-left ordeer-2 xl:order-none">
 						<span className="text-xl">
-							Software Developer & DevOps Engineer
+							QA Engineer & Social Services Advocate
 						</span>
 						<h1 className="h1 mb-6 ">
 							Hello I am <br /> <span className="text-accent">Mary Kwawu </span>
 						</h1>
 						<p className="max-w[500px] mb-9 text-white/80">
-							I excel at crafting elegant digital experiences and I am
-							proficient in Nextjs, Angular, Docker, Kubernetes and flask.
+							Backed by a strong background in QA process auditing and risk mitigation, 
+							I apply these same structural frameworks to Social Work to design, monitor, 
+							and deliver highly effective community programs.
 						</p>
 						{/* btn and socials */}
 						<div className="flex flex-col xl:flex-row items-center gap-8">
