@@ -88,7 +88,7 @@ const Experience = {
 		{
 			company: "Tia Cloud",
 			position: "DevOps Engineer",
-			duration: "2024 - Present",
+			duration: "January/2024 - September/2024",
 		},
 		{
 			company: "Turnntabl",
