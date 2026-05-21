@@ -8,32 +8,34 @@ import { title } from "process";
 const services = [
 	{
 		num: "01",
-		title: "Web Development",
+		title: "Quality Assurance Engineer",
 		description:
-			"Looking to boost your online presence with modern web technology? I offer expert web development services using ReactJS, NextJS, NodeJS and TailwindCSS. From building fast, interactive interfaces to creating stylish, responsive designs, I provide solutions that are both powerful and user-friendly. ReactJS and Angular let me craft dynamic, scalable applications, while NextJS ensures top-notch performance and SEO. With TailwindCSS, I design beautiful and adaptable websites that fit your needs. Let’s create something amazing together",
+			"I offer top-notch Quality Assurance services to optimize your organizational processes and system workflows using rigorous auditing, risk mitigation, and automated testing. Through thorough process auditing and custom test writing, I meticulously examine your operational structures to identify inefficiencies, eliminate bugs, and ensure strict compliance standards. I leverage powerful tools like Selenium to run automated test scripts, proactively detecting bottlenecks, protecting data integrity, and preventing errors before they ever impact production. Together, these methodologies enhance your structural reliability, improve overall efficiency, and elevate the standard of your final delivery. Let’s streamline your operations and take your quality standards to the next level!",
 		href: "",
 	},
 	{
 		num: "02",
+		title: "Social Services Advocate",
+		description:"I specialize in driving impactful advocacy and community development through my dedicated work with organizations like Women World of Health and the Gender and Reproductive Health Advocacy Youth Network. By focusing on public health equity, reproductive rights, and youth empowerment, I design and support structured community initiatives tailored to the unique needs of vulnerable populations. My background in systematic planning and compliance tracking ensures that every advocacy campaign and health education program is executed safely, ethically, and effectively. Through these strategic partnerships, I deliver resilient community frameworks that champion human rights, foster social well-being, and adapt as the community grows.",
+        href: "",
+	},
+	{
+		num: "03",
 		title: "Front-end Development",
 		description:
 			"I specialize in crafting stunning, high-performance user interfaces using JavaScript, React, Angular, and TailwindCSS. With JavaScript, I create interactive features that engage users. React and Angular ensure dynamic, scalable applications that adapt to your needs, while TailwindCSS delivers sleek, responsive designs that look great on any device. Let’s work together to transform your vision into a seamless, captivating web experience that stands out and performs flawlessly.",
 		href: "",
 	},
-	{
-		num: "03",
-		title: "Developmnet Operation Engineer",
-		description:
-			"I offer top-notch DevOps services to optimize your development and deployment processes using Docker, Kubernetes, and AWS. With Docker, I package your applications for consistent and efficient deployment across environments. Kubernetes orchestrates these containers, ensuring scalability and reliability for your applications. AWS provides the cloud infrastructure to support robust, scalable, and secure solutions. Together, these tools enhance your workflow, improve efficiency, and accelerate your time-to-market. Let’s streamline your operations and take your infrastructure to the next level!",
-		href: "",
-	},
+	
 	{
 		num: "04",
-		title: "Back-end",
+		title: "Web Development",
 		description:
-			"I specialize in creating powerful backends using Flask, PostgreSQL, MongoDB, Jasmine, and Karma. Flask provides a flexible framework for rapid development, while PostgreSQL and MongoDB offer efficient and scalable data management solutions tailored to your needs. Jasmine and Karma ensure your backend is thoroughly tested for reliability and performance. By integrating these technologies, I deliver a robust, scalable, and well-tested backend that drives your application's success and adapts as your business grows.",
+			"Looking to boost your online presence with modern web technology? I offer expert web development services using ReactJS, NextJS, NodeJS and TailwindCSS. From building fast, interactive interfaces to creating stylish, responsive designs, I provide solutions that are both powerful and user-friendly. ReactJS and Angular let me craft dynamic, scalable applications, while NextJS ensures top-notch performance and SEO. With TailwindCSS, I design beautiful and adaptable websites that fit your needs. Let’s create something amazing together",
 		href: "",
 	},
+	
+	
 ];
 
 import { motion } from "framer-motion";
