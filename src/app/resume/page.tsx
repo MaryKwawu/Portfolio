@@ -1,6 +1,5 @@
 "use client";
 
-import { Description } from "@radix-ui/react-dialog";
 import React from "react";
 
 import {
@@ -9,23 +8,29 @@ import {
 	FaJs,
 	FaReact,
 	FaNodeJs,
-	FaDocker,
-	FaAngular,
-	FaAws,
+	FaDocker
 } from "react-icons/fa";
+import { 
+	FaPeopleGroup, 
+	FaHeartPulse, 
+	FaHandshakeAngle, 
+	FaScaleBalanced, 
+	FaPeopleRoof, 
+	FaUserShield, 
+	FaHandHoldingMedical
+ } from "react-icons/fa6";
 
 import {
 	SiTailwindcss,
-	SiNextdotjs,
+	SiSelenium,
 	SiKubernetes,
-	SiFlask,
 } from "react-icons/si";
 
 //about data
 const about = {
 	title: "About me",
 	description:
-		"Mary is a DevOps Software Engineer with strong expertise in Python, Angular, Kubernetes, and Docker. She has a deep passion for DevOps and programming, specializing in Docker and Kubernetes. Mary is committed to community building and advocacy, dedicating her free time to supporting girls and women in STEM through GRAY (Gender and Reproductive Advocacy Youth Network) and proudly contributing to Black Sisters in STEM. Her dedication to both technical excellence and community impact makes her a valuable asset to any team",
+		"Mary is a Quality Assurance professional and Social Worker with a strong background in process auditing, risk mitigation, and automated testing using Selenium. She leverages her rigorous evaluative frameworks to systematically design, monitor, and deliver highly effective community support programs. Deeply committed to social equity, Mary dedicates her expertise to community building and advocacy, collaborating with Women World of Health and the Gender and Reproductive Health Advocacy Youth Network (GRAY). Her unique blend of analytical precision and dedicated human-centered advocacy makes her an exceptional asset to both technical and community-driven initiatives.",
 	info: [
 		{
 			fieldName: "Name",
@@ -63,12 +68,22 @@ const about = {
 const Experience = {
 	title: "My experience",
 	description:
-		"With three years in web and backend development, I bring a versatile skill set for complex projects. I build scalable applications with Flask, manage data using PostgreSQL and MongoDB, and ensure reliability through Jasmine and Karma testing. On the frontend, I design engaging interfaces with JavaScript, ReactJS, Angular, and TailwindCSS. My DevOps experience includes Docker and Kubernetes for efficient containerization, along with AWS and Azure for secure, scalable cloud solutions. This broad expertise allows me to deliver innovative and tailored solutions that exceed expectations.",
+		"With 3 years of experience in the tech sector specializing in Quality Assurance and 7 years of dedicated experience in Social Work, I bring a versatile skill set for optimizing complex systems and delivering impactful community solutions. I ensure operational and regulatory compliance through rigorous process auditing, risk mitigation, and automated testing with Selenium. On the human services front, I leverage my deep field experience to systematically design, monitor, and deliver highly effective community support programs. My advocacy journey includes long-term strategic collaborations with Women World of Health and the Gender and Reproductive Health Advocacy Youth Network (GRAY) to drive public health equity and youth empowerment. This broad expertise allows me to bridge the gap between technical precision and senior human-centered excellence.",
 	items: [
 		{
-			company: "Pigeon Ulta",
-			position: "Front-end Developer",
+			company: "Pigeonulta",
+			position: "Quality Assurance Engineer",
 			duration: "2023 - Present",
+		},
+		{
+			company: "Women World of Health",
+			position: "Women Health Advocate",
+			duration: "2019 - Present",
+		},
+		{
+			company: "Gender and Reproductive Health Advocacy Youth Network (GRAY)",
+			position: "STEM & Health Advocate",
+			duration: "2019 - Present",
 		},
 		{
 			company: "Tia Cloud",
@@ -83,18 +98,36 @@ const Experience = {
 	],
 };
 
+type EducationItem = {
+	Institution: string;
+	duration: string;
+	Degree?: string;
+	Training?: string;
+};
+
 //educational data
-const education = {
+const education: {
+	icon: string;
+	title: string;
+	description: string;
+	items: EducationItem[];
+} = {
 	icon: "",
 	title: "My education",
 	description:
-		"Starting with a Bachelor of Education in Social Studies from the University of Cape Coast, I pivoted to tech through MEST Africa’s bootcamp, mastering React, MongoDB, and Node.js. My journey continued with a rigorous program at ALX Africa, earning an Associate Degree in programming fundamentals. Now, I’m enhancing my skills with a Linux Foundation scholarship, pursuing the Certified Kubernetes Administrator certification.",
+		"Starting with a Bachelor of Education from the University of Cape Coast, I transitioned into tech through intensive programming bootcamps at MEST Africa and ALX Africa. This foundation launched my current dual path: 3 years of technical experience in Quality Assurance and 7 years of deep-rooted experience in Social Work. I focus on system workflow optimization, risk mitigation, and automated testing using Selenium, while simultaneously designing and delivering vital community support programs alongside Women World of Health and the GRAY network. This allows me to bridge the gap between systematic precision and human-centered excellence.",
 	items: [
 		{
-			Institution: "Linux Foundation",
-			Certification: "Certified Kubernetes Administrator",
-			duration: "June/2024 - June/2025",
+			Institution: "Goethe Institute",
+			Degree: "A1 German Language Certification",
+			duration: "February/2025 - September/2025",
 		},
+		{
+			Institution: "University of Cape Coast",
+			Degree: "Bachelor of Education in Social Stuies",
+			duration: "August/2015 - September/2019",
+		},
+		
 
 		{
 			Institution: "ALX Africa",
@@ -108,11 +141,7 @@ const education = {
 			duration: "February/2021 - April/2021",
 		},
 
-		{
-			Institution: "University of Cape Coast",
-			Degree: "Bachelor of Education in Social Stuies",
-			duration: "August/2015 - September/2019",
-		},
+		
 	],
 };
 
@@ -120,11 +149,47 @@ const education = {
 const skills = {
 	title: "My skills",
 	description:
-		"I’m a skilled software developer proficient in Python, Node.js, and JavaScript, with deep expertise in DevOps tools like Kubernetes, Docker, AWS, and Azure. I build robust REST APIs with Flask and craft dynamic frontends using Angular. My experience with PostgreSQL and MongoDB ensures top-notch data management. I maintain code integrity with Git, automate testing with Jasmine and Karma, and utilize IDEs like PyCharm, VSCode, and IntelliJ. Applying OOP, TDD, and Agile methodologies, I deliver high-quality, innovative solutions that exceed expectations.",
+		"Leveraging 3 years of tech industry experience and a rich 7-year background in Social Work, I specialize in building reliable systems and driving impactful community change. As a Quality Assurance professional, I bring structural precision to workflows using process auditing, Object-Oriented Programming (OOP) fundamentals, and automated Selenium test scripts to eliminate bugs and protect data integrity. I translate these systematic processes directly into my social work advocacy to manage case logistics, mitigate organizational risks, and deliver secure, compliant public health initiatives",
 	skilllist: [
+		{
+			icon: <SiSelenium />,
+			name: "selinium",
+		},
+		{
+			icon: <FaUserShield />,
+			name: "community service",
+		},
+		{
+			icon: <FaHandshakeAngle />,
+			name: "community Service",
+		},
+		{
+			icon: <FaPeopleRoof />,
+			name: "people",
+		},
+		{
+			icon: <FaScaleBalanced />,
+			name: "community service",
+		},
+		{
+			icon: <FaHeartPulse />,
+			name: "care",
+		},
+		{
+			icon: <FaPeopleGroup />,
+			name: "social Work Advocacy",
+		},
+		{
+			icon: < FaHandHoldingMedical/>,
+			name: "social Work Advocacy",
+		},
 		{
 			icon: <FaHtml5 />,
 			name: "html 5",
+		},
+		{
+			icon: <SiTailwindcss />,
+			name: "tailwind.css",
 		},
 		{
 			icon: <FaCss3 />,
@@ -137,40 +202,20 @@ const skills = {
 		{
 			icon: <FaReact />,
 			name: "react",
-		},
+		},	
 		{
-			icon: <SiNextdotjs />,
-			name: "nextjs",
-		},
-
-		{
-			icon: <SiTailwindcss />,
-			name: "tailwind.css",
-		},
+			icon: <FaNodeJs />,
+			name: "node.js",
+		},		
 		{
 			icon: <SiKubernetes />,
 			name: "kubernetes",
 		},
 		{
-			icon: <FaNodeJs />,
-			name: "node.js",
-		},
-		{
-			icon: <FaAngular />,
-			name: "angular",
-		},
-		{
-			icon: <SiFlask />,
-			name: "flask",
-		},
-		{
 			icon: <FaDocker />,
 			name: "docker",
 		},
-		{
-			icon: <FaAws />,
-			name: "Aws",
-		},
+			
 	],
 };
 
@@ -183,7 +228,7 @@ import {
 	TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import { ScrollArea } from "@radix-ui/react-scroll-area";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 const Resume = () => {
@@ -269,9 +314,7 @@ const Resume = () => {
 													>
 														<span className="text-accent">{item.duration}</span>
 														<h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left ">
-															{item.Degree}
-															{item.Training}
-															{item.Certification}
+															{item.Degree ?? item.Training}
 														</h3>
 														<div className="flex items-center gap-3">
 															{/* dot */}
