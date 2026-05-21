@@ -19,21 +19,46 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkerSliderBtns from "@/components/worksliderbtns";
 
-const projects = [
+type Project = {
+	num: string;
+	category: string;
+	title: string;
+	description: string;
+	stack: { name: string }[];
+	image: string;
+	live?: string;
+	github?: string;
+};
+
+const projects: Project[] = [
 	{
 		num: "01",
-		category: "frontend",
-		title: "project 1",
-		description: "Built a portfolio for a colleague",
-		stack: [{ name: "NestJS" }, { name: "TailwindCss" }, { name: "NodeJS" }],
-		image: "/assets/work/project.jpg",
-		live: "https://uzoma-portfolio.vercel.app/",
-		github: "https://github.com/MaryKwawu/Portfolio",
+		category: "Quality Assurance",
+		title: "Pigeonultra",
+		description: "Currently working as a Quality Assurance Engineer at Pigeonultra, a company that runs food delivery services.",
+		stack: [{ name: "QA" }, { name: "Selenium" }],
+		image: "/assets/work/pigeonultra.png",
 	},
 	{
 		num: "02",
+		category: "Community Service",
+		title: "Humanitarian Aid Delivery",
+		description: "Attended a LIMMUN conference to deliver humanitarian aid to the needy in Ghana",
+		stack: [{ name: "NGO" }, { name: "SDGs" }, { name: "Humanitarian Aid" }],
+		image: "/assets/work/social-work.png",
+	},
+	{
+		num: "03",
+		category: "Community Service",
+		title: "Humanitarian Aid Delivery",
+		description: "Attended a LIMMUN conference to deliver humanitarian aid to the needy in Ghana",
+		stack: [{ name: "NGO" }, { name: "SDGs" }, { name: "Humanitarian Aid" }],
+		image: "/assets/work/social_work.png",
+	},
+	{
+		num: "04",
 		category: "fullstack",
-		title: "project2",
+		title: "project4",
 		description: "Built my first fabric website and hosted it on Heroku",
 		stack: [{ name: "React" }, { name: "Tailwind.css" }, { name: "nodejs" }],
 		image: "/assets/work/grace-fabric.jpg",
@@ -41,15 +66,15 @@ const projects = [
 		github: "https://github.com/MaryKwawu/Grace-Fabric-E-commerce-site",
 	},
 	{
-		num: "03",
+		num: "05",
 		category: "fullstack",
-		title: "project 3",
+		title: "project 5",
 		description: "Built a todo app to help me achieve my daily goals ",
 		stack: [{ name: "Nextjs" }, { name: "Tailwind.css" }, { name: "nodejs" }],
 		image: "/assets/work/todo-app.jpg",
-		live: "https://my-todo-app-in-next-js.vercel.app/",
-		github: "https://github.com/MaryKwawu/My-Todo-App-in-NextJs",
 	},
+	
+	
 ];
 
 const Work = () => {
@@ -102,34 +127,38 @@ const Work = () => {
 							{/* border */}
 							<div className="border border-white/20"></div>
 							{/* button */}
-							<div className="flex item-center gap-4">
-								{/* live project button */}
-								<Link href={project.live}>
-									<TooltipProvider delayDuration={100}>
-										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-												<BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-											</TooltipTrigger>
-											<TooltipContent>
-												<p>Live project</p>
-											</TooltipContent>
-										</Tooltip>
-									</TooltipProvider>
-								</Link>
-								{/* github project button */}
-								<Link href={project.github}>
-									<TooltipProvider delayDuration={100}>
-										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-												<BsGithub className="text-white text-3xl group-hover:text-accent" />
-											</TooltipTrigger>
-											<TooltipContent>
-												<p>Github respository</p>
-											</TooltipContent>
-										</Tooltip>
-									</TooltipProvider>
-								</Link>
-							</div>
+							{(project.live || project.github) && (
+								<div className="flex item-center gap-4">
+									{project.live && (
+										<Link href={project.live}>
+											<TooltipProvider delayDuration={100}>
+												<Tooltip>
+													<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+														<BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+													</TooltipTrigger>
+													<TooltipContent>
+														<p>Live project</p>
+													</TooltipContent>
+												</Tooltip>
+											</TooltipProvider>
+										</Link>
+									)}
+									{project.github && (
+										<Link href={project.github}>
+											<TooltipProvider delayDuration={100}>
+												<Tooltip>
+													<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+														<BsGithub className="text-white text-3xl group-hover:text-accent" />
+													</TooltipTrigger>
+													<TooltipContent>
+														<p>Github respository</p>
+													</TooltipContent>
+												</Tooltip>
+											</TooltipProvider>
+										</Link>
+									)}
+								</div>
+							)}
 						</div>
 					</div>
 					<div className="w-full xl:w-[50%] ">
